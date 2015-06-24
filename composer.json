@@ -22,10 +22,11 @@
     "psr-4": { "Omnipay\\PayNL\\" : "src/" }
   },
   "require": {
-    "omnipay/common": "2.3.2",
-    "omnipay/tests": "2.0.x-dev"
+    "php": ">=5.4.0",
+    "omnipay/common": "2.3.2"
   },
   "require-dev": {
+    "omnipay/tests": "2.0.x-dev"
   },
   "extra": {
     "branch-alias": {
