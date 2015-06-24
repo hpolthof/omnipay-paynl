@@ -1,0 +1,35 @@
+{
+  "name": "hpolthof/omnipay-paynl",
+  "type": "library",
+  "description": "Pay.nl driver for the Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "pay.nl",
+    "omnipay",
+    "pay",
+    "payment"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hpolthof@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Omnipay\\PayNL\\" : "src/" }
+  },
+  "require": {
+    "omnipay/common": "2.3.2",
+    "omnipay/tests": "2.0.x-dev"
+  },
+  "require-dev": {
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    }
+  }
+}
